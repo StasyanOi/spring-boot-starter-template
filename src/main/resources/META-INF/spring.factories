@@ -1,2 +1,50 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.CustomAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=my.CustomAutoConfiguration
+
+#get bean info instances
+org.springframework.beans.BeanInfoFactory
+
+# filter for filtering out autoconfigurations
+org.springframework.boot.autoconfigure.AutoConfigurationImportFilter
+
+# get details of importer autoconfigurations
+org.springframework.boot.autoconfigure.AutoConfigurationImportListener
+
+# check if the templates are available (thymeleaf)
+org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider
+
+# load ConfigData that contributes to spring enviorment
+org.springframework.boot.context.config.ConfigDataLoader
+
+# find ConfigDataLoaders
+org.springframework.boot.context.config.ConfigDataLocationResolver
+
+
+org.springframework.boot.diagnostics.FailureAnalysisReporter
+
+org.springframework.boot.diagnostics.FailureAnalyzer
+
+
+# post proccess Enviorment
+org.springframework.boot.env.EnvironmentPostProcessor
+
+# add more property sources (yaml, properties ...)
+org.springframework.boot.env.PropertySourceLoader
+
+
+org.springframework.boot.logging.LoggingSystemFactory
+
+# SpringApplication.run listener
+org.springframework.boot.SpringApplicationRunListener
+
+# callback for reporting spring boot startup errors
+org.springframework.boot.SpringBootExceptionReporter
+
+org.springframework.boot.sql.init.dependency.DatabaseInitializerDetector
+
+org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector
+
+
+org.springframework.context.ApplicationContextInitializer
+
+# application event listeners
+org.springframework.context.ApplicationListener
