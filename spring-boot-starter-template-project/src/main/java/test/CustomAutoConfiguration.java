@@ -1,4 +1,4 @@
-package my;
+package test;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -16,7 +16,6 @@ public class CustomAutoConfiguration {
     }
 
     @Bean
-    @ConditionalOnMissingBean
     public String customBean() {
         return customProperties.getProperty();
     }

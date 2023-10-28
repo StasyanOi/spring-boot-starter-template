@@ -1,4 +1,4 @@
-package my;
+package test;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

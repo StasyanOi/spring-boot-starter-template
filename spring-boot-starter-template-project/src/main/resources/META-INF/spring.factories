@@ -1,4 +1,4 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=my.CustomAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=test.CustomAutoConfiguration
 
 #get bean info instances
 org.springframework.beans.BeanInfoFactory
