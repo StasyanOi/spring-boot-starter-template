@@ -16,7 +16,6 @@ class MainConfigurationTest {
     @Test
     void testAutoConfiguration() {
         Object customBean = applicationContext.getBean("customBean");
-
         assertThat(customBean).isInstanceOf(String.class).isEqualTo("test_property");
     }
 }
